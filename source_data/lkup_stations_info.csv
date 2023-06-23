@@ -1,0 +1,144 @@
+map_id,station,city,line
+40230,Cumberland (Blue Line),Chicago,Blue
+40890,O'Hare (Blue Line),Chicago,Blue
+40010,Austin (Blue Line),Oak Park,Blue
+40180,Oak Park (Blue Line),Oak Park,Blue
+40390,Forest Park (Blue Line),Forest Park,Blue
+40820,Rosemont (Blue Line),Rosemont,Blue
+40980,Harlem (Blue Line - Forest Park Branch),Chicago,Blue
+40870,Francisco (Brown Line),Chicago,Brown
+41180,Kedzie (Brown Line),Chicago,Brown
+41290,Kimball (Brown Line),Chicago,Brown
+40090,Damen (Brown Line),Chicago,Brown
+41010,Rockwell (Brown Line),Chicago,Brown
+41480,Western (Brown Line),Chicago,Brown
+41500,Montrose (Brown Line),Chicago,Brown
+40020,Harlem/Lake (Green Line),Oak Park,Green
+40610,Ridgeland (Green Line),Oak Park,Green
+41350,Oak Park (Green Line),Oak Park,Green
+40660,Armitage (Brown & Purple lines),Chicago,Multi
+41220,"Fullerton (Red, Brown & Purple lines)",Chicago,Multi
+40420,Cicero (Pink Line),Cicero,Pink
+40580,54th/Cermak (Pink Line),Cicero,Pink
+40050,Davis (Purple Line),Evanston,Purple
+40270,Main (Purple Line),Evanston,Purple
+40400,Noyes (Purple Line),Evanston,Purple
+40520,Foster (Purple Line),Evanston,Purple
+40690,Dempster (Purple Line),Evanston,Purple
+40840,South Boulevard (Purple Line),Evanston,Purple
+41050,Linden (Purple Line),Evanston,Purple
+41250,Central (Purple Line),Evanston,Purple
+40340,Berwyn (Red Line),Chicago,Red
+40760,Granville (Red Line),Chicago,Red
+40880,Thorndale (Red Line),Chicago,Red
+41380,Bryn Mawr (Red Line),Chicago,Red
+40990,69th (Red Line),Chicago,Red
+40910,63rd (Red Line),Chicago,Red
+40080,Sheridan (Red Line),Chicago,Red
+41420,Addison (Red Line),Chicago,Red
+40450,95th/Dan Ryan (Red Line),Chicago,Red
+40240,79th (Red Line),Chicago,Red
+41430,87th (Red Line),Chicago,Red
+40560,Jackson (Red Line),Chicago,Red
+41090,Monroe (Red Line),Chicago,Red
+41490,Harrison (Red Line),Chicago,Red
+41660,Lake (Red Line),Chicago,Red
+40330,Grand (Red Line),Chicago,Red
+40630,Clark/Division (Red Line),Chicago,Red
+40650,North/Clybourn (Red Line),Chicago,Red
+41450,Chicago (Red Line),Chicago,Red
+40190,Sox-35th (Red Line),Chicago,Red
+41000,Cermak-Chinatown (Red Line),Chicago,Red
+40770,Lawrence (Red Line),Chicago,Red
+41200,Argyle (Red Line),Chicago,Red
+40100,Morse (Red Line),Chicago,Red
+41190,Jarvis (Red Line),Chicago,Red
+40720,Cottage Grove (Green Line),Chicago,Red
+41170,Garfield (Red Line),Chicago,Red
+41230,47th (Red Line),Chicago,Red
+40140,Dempster-Skokie  (Yellow Line),Skokie,Yellow
+41680,Oakton-Skokie (Yellow Line),Skokie,Yellow
+40940,Halsted (Green Line),Chicago,Green
+40290,Ashland/63rd (Green Line),Chicago,Green
+40310,Western (Orange Line),Chicago,Orange
+40960,Pulaski (Orange Line),Chicago,Orange
+41130,Halsted (Orange Line),Chicago,Orange
+40360,Southport (Brown Line),Chicago,Brown
+40530,Diversey (Brown & Purple lines),Chicago,Multi
+41210,Wellington (Brown & Purple lines),Chicago,Multi
+41310,Paulina (Brown Line),Chicago,Brown
+41320,"Belmont (Red, Brown & Purple lines)",Chicago,Multi
+40120,35th/Archer (Orange Line),Chicago,Orange
+41150,Kedzie (Orange Line),Chicago,Orange
+40930,Midway (Orange Line),Chicago,Orange
+41440,Addison (Brown Line),Chicago,Brown
+41460,Irving Park (Brown Line),Chicago,Brown
+40040,"Quincy/Wells (Brown, Orange, Purple & Pink lines)",Chicago,Multi
+40070,Jackson (Blue Line),Chicago,Blue
+40160,"LaSalle/Van Buren (Brown, Orange, Purple & Pink lines)",Chicago,Multi
+40260,"State/Lake (Brown, Green, Orange, Pink & Purple lines)",Chicago,Multi
+40370,Washington (Blue Line),Chicago,Blue
+40380,"Clark/Lake (Blue, Brown, Green, Orange, Purple & Pink lines)",Chicago,Multi
+40680,"Adams/Wabash (Brown, Green, Orange, Pink & Purple lines)",Chicago,Multi
+40730,"Washington/Wells (Brown, Orange, Purple & Pink lines)",Chicago,Multi
+40790,Monroe (Blue Line),Chicago,Blue
+40850,"Harold Washington Library-State/Van Buren (Brown, Orange, Purple & Pink lines)",Chicago,Multi
+41340,LaSalle (Blue Line),Chicago,Blue
+41700,"Washington/Wabash (Brown, Green, Orange, Purple & Pink lines)",Chicago,Multi
+40460,Merchandise Mart (Brown & Purple lines),Chicago,Multi
+40710,Chicago (Brown & Purple lines),Chicago,Multi
+40800,Sedgwick (Brown & Purple lines),Chicago,Multi
+40750,Harlem (Blue Line - O'Hare Branch),Chicago,Blue
+41400,"Roosevelt (Red, Orange & Green lines)",Chicago,Multi
+41690,Cermak-McCormick Place (Green Line),Chicago,Green
+40210,Damen (Pink Line),Chicago,Pink
+40740,Western (Pink Line),Chicago,Pink
+40830,18th (Pink Line),Chicago,Pink
+41060,Ashland (Orange Line),Chicago,Orange
+40440,California (Pink Line),Chicago,Pink
+40540,Wilson (Red & Purple lines),Chicago,Multi
+40150,Pulaski (Pink Line),Chicago,Pink
+40600,Kostner (Pink Line),Chicago,Pink
+40780,Central Park (Pink Line),Chicago,Pink
+41040,Kedzie (Pink Line),Chicago,Pink
+40170,Ashland (Green & Pink lines),Chicago,Multi
+40220,Western (Blue Line - Forest Park Branch),Chicago,Blue
+40350,UIC-Halsted (Blue Line),Chicago,Blue
+40430,Clinton (Blue Line),Chicago,Blue
+40470,Racine (Blue Line),Chicago,Blue
+40810,Illinois Medical District (Blue Line),Chicago,Blue
+41030,Polk (Pink Line),Chicago,Pink
+41160,Clinton (Green & Pink lines),Chicago,Multi
+41510,Morgan (Green & Pink lines),Chicago,Multi
+40250,Kedzie-Homan (Blue Line),Chicago,Blue
+41070,Kedzie (Green Line),Chicago,Green
+41360,California (Green Line),Chicago,Green
+41670,Conservatory (Green Line),Chicago,Green
+40030,Pulaski (Green Line),Chicago,Green
+40920,Pulaski (Blue Line),Chicago,Blue
+40280,Central (Green Line),Chicago,Green
+40480,Cicero (Green Line),Chicago,Green
+40700,Laramie (Green Line),Chicago,Green
+40970,Cicero (Blue Line),Chicago,Blue
+41260,Austin (Green Line),Chicago,Green
+40320,Division (Blue Line),Chicago,Blue
+40490,Grand (Blue Line),Chicago,Blue
+40590,Damen (Blue Line),Chicago,Blue
+41410,Chicago (Blue Line),Chicago,Blue
+40570,California (Blue Line),Chicago,Blue
+40670,Western (Blue Line - O'Hare Branch),Chicago,Blue
+41020,Logan Square (Blue Line),Chicago,Blue
+40060,Belmont (Blue Line),Chicago,Blue
+40550,Irving Park (Blue Line),Chicago,Blue
+41240,Addison (Blue Line),Chicago,Blue
+41330,Montrose (Blue Line),Chicago,Blue
+41280,Jefferson Park (Blue Line),Chicago,Blue
+40900,"Howard (Red, Purple & Yellow lines)",Chicago,Multi
+41300,Loyola (Red Line),Chicago,Red
+41140,King Drive (Green Line),Chicago,Green
+40510,Garfield (Green Line),Chicago,Green
+40130,51st (Green Line),Chicago,Green
+40300,Indiana (Green Line),Chicago,Green
+41080,47th (Green Line),Chicago,Green
+41270,43rd (Green Line),Chicago,Green
+41120,35th-Bronzeville-IIT (Green Line),Chicago,Green

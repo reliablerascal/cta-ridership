@@ -1,0 +1,17 @@
+,map_id,station_x,community_id,lat,long,station_y,city,line,community_name,2019,2020,2021,2022,pct_19in22,pct_19in22viz
+100,41090,Monroe (Red Line),38,41.880745,-87.627696,Monroe (Red Line),Chicago,Red,LOOP,2900809,777831,704620,988180,34.065669266745935,39532.181170435186
+72,40790,Monroe (Blue Line),38,41.880703,-87.629378,Monroe (Blue Line),Chicago,Blue,LOOP,2268194,606695,517620,818687,36.09422298092667,47023.29860712627
+51,40560,Jackson (Red Line),38,41.878153,-87.627596,Jackson (Red Line),Chicago,Red,LOOP,2601587,769130,680901,959018,36.86280720191176,50091.63582291447
+35,40380,"Clark/Lake (Blue, Brown, Green, Orange, Purple & Pink lines)",38,41.885737,-87.630886,"Clark/Lake (Blue, Brown, Green, Orange, Purple & Pink lines)",Chicago,Multi,LOOP,5830767,1648674,1541086,2220778,38.08723620751781,55250.775472621135
+14,40160,"LaSalle/Van Buren (Brown, Orange, Purple & Pink lines)",38,41.8768,-87.631739,"LaSalle/Van Buren (Brown, Orange, Purple & Pink lines)",Chicago,Multi,LOOP,830063,257786,208858,343373,41.36710105136598,70788.91594511982
+3,40040,"Quincy/Wells (Brown, Orange, Purple & Pink lines)",38,41.878723,-87.63374,"Quincy/Wells (Brown, Orange, Purple & Pink lines)",Chicago,Multi,LOOP,2188354,595970,509549,910782,41.61950031850423,72092.58287773751
+6,40070,Jackson (Blue Line),38,41.878183,-87.629296,Jackson (Blue Line),Chicago,Blue,LOOP,2031329,619097,582353,858993,42.28724150543807,75618.50171439741
+138,41660,Lake (Red Line),38,41.884809,-87.627813,Lake (Red Line),Chicago,Red,LOOP,6450839,1902945,2065791,2749185,42.61747967977499,77403.9793242565
+66,40730,"Washington/Wells (Brown, Orange, Purple & Pink lines)",38,41.882695,-87.63378,"Washington/Wells (Brown, Orange, Purple & Pink lines)",Chicago,Multi,LOOP,2214522,668828,579832,948336,42.82350773665829,78532.01020554795
+34,40370,Washington (Blue Line),38,41.883164,-87.62944,Washington (Blue Line),Chicago,Blue,LOOP,4176948,1195974,1307386,1846738,44.21261648457199,86424.85331546146
+23,40260,"State/Lake (Brown, Green, Orange, Pink & Purple lines)",38,41.88574,-87.627835,"State/Lake (Brown, Green, Orange, Pink & Purple lines)",Chicago,Multi,LOOP,3783187,1164251,1375062,1947635,51.48133042326483,136442.37969025836
+61,40680,"Adams/Wabash (Brown, Green, Orange, Pink & Purple lines)",38,41.879507,-87.626037,"Adams/Wabash (Brown, Green, Orange, Pink & Purple lines)",Chicago,Multi,LOOP,2087483,636466,672625,1083952,51.92626718397228,140010.72709392547
+123,41340,LaSalle (Blue Line),38,41.875568,-87.631722,LaSalle (Blue Line),Chicago,Blue,LOOP,873340,266598,314398,463028,53.0180685643621,149029.31570698824
+135,41490,Harrison (Red Line),38,41.874039,-87.627479,Harrison (Red Line),Chicago,Red,LOOP,1212514,355774,500133,665812,54.911695864954964,165574.9258932481
+142,41700,"Washington/Wabash (Brown, Green, Orange, Purple & Pink lines)",38,41.88322,-87.626189,"Washington/Wabash (Brown, Green, Orange, Purple & Pink lines)",Chicago,Multi,LOOP,3126070,1082287,1321376,1771921,56.68206406126542,182111.3315048073
+78,40850,"Harold Washington Library-State/Van Buren (Brown, Orange, Purple & Pink lines)",38,41.876862,-87.628196,"Harold Washington Library-State/Van Buren (Brown, Orange, Purple & Pink lines)",Chicago,Multi,LOOP,1077009,376074,440200,678727,63.019621934449944,250280.7111498892
