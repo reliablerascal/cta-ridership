@@ -1,5 +1,4 @@
 #Who's Still Riding the CTA?#
-<h1>Who's Still Riding the CTA?</h1>
 An analysis of changes in CTA ridership between 2019 and 2022
 
 This project looks at which CTA train stations and recovered the most (and the least) of their pre-pandemic ridership levels by 2022. It also attempts to set the stage for future demographic analysis by aggregating ridership stats across Chicago's 77 community areas. And here's the story [Who's Still Riding the CTA](https://reliablerascal.github.io/cta_ridership/) as published on GitHub.
@@ -28,6 +27,7 @@ Socrata markup
 ...note my steps in Jupiter 
 
 manual effort
+grabbed CTA train colors from https://en.wikipedia.org/wiki/Chicago_%22L%22 
 
 
 ##Data Quirks and Other E-Varmints Standing in My Righteous Path
