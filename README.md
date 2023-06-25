@@ -5,7 +5,7 @@ This project looks at which Chicago Transit Authority (CTA) train stations recov
 
 I'm also attempting to set the stage for future demographic analysis by aggregating ridership stats for the 143 stations up to 77 community areas.
 
-Here's my story, [Who's Still Riding the CTA] (https://reliablerascal.github.io/cta_ridership/) as published on GitHub.
+Here's my story, [Who's Still Riding the CTA](https://reliablerascal.github.io/cta_ridership/) as published on GitHub.
 
 ## Key Findings
 My key findings are as follows:
@@ -26,7 +26,7 @@ Interestingly, I have not seen the Pink Line trend reported in Chicago. Prior re
 | Community Area Names | https://data.cityofchicago.org | Corresponding names for each station |
 
 
-##Overview of Data Analysis Process
+## Overview of Data Analysis Process
 Socrata markup
 ...hand coded
 ...note my steps in Jupiter 
@@ -56,6 +56,6 @@ I also hoped to layer demographic data about the community areas, which I sort o
 Most data for this project is collected directly in Python via API. You'll also find in this folder:
 results includes exported data analysis
 
-*[results](results/)
-*[source_data](source/data/)- includes only my own manually-entered lookup table for CTA stations
-*[Jupyter Notebook](cta_ridership.ipynb)- this steps through the analysis
+* [results](results/)
+* [source_data](source/data/)- includes only my own manually-entered lookup table for CTA stations
+* [Jupyter Notebook](cta_ridership.ipynb)- this steps through the analysis
