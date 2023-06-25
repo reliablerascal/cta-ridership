@@ -35,11 +35,7 @@ My data analysis process required the following steps:
 * Created an aggregate community-level summary, merging in community names
 * Calculated station-level and community-level summary metrics- primarily, percent ridership retention
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;% retention = (2022 ridership) - (2019 ridership)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(2022 ridership) - (2019 ridership)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;% retention = ______________________
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(2019 ridership)
+% retention = ((2022 ridership) - (2019 ridership)) / (2019 ridership)
 
 * Prepared graphics in DataWrapper and Flourish. I found the hex color codes in [Chicago's train wikipedia page](https://en.wikipedia.org/wiki/Chicago_%22L%22) to be helpful in getting the precise colors.
 
@@ -47,7 +43,7 @@ My data analysis process required the following steps:
 In addition to some problems mentioned above, I addressed the following problems:
 * Removed 4 red line stations from station-level (but not community level) summaries, because two stations closed for renovation in May 2021 while adjacent stations picked up their ridership
 * Annoyingly, community area IDs in CTA data did not exactly match IDs in the community area boundary file. I had to match by community area name
-* Using a point map, I found it difficult to visually discern the difference between 35% ridership retention and 70% retention. While Youyou argued for mathematical precision, Gurman taught us that humans don't accurately perceive area. I found a helpful explainer on the [ethics of "perceptual scaling"](https://makingmaps.net/2007/08/28/perceptual-scaling-of-map-symbols/) and opted to exagggerate the differences in area, while explaining why I had done so in the graphic's footer.
+* Using a point map, I found it difficult to visually discern the difference between 35% ridership retention and 70% retention. While Youyou argued for mathematical precision, Gurman taught us that humans don't accurately perceive area. I found a helpful explainer on the [ethics of "perceptual scaling"](https://makingmaps.net/2007/08/28/perceptual-scaling-of-map-symbols/) and opted to exaggerate the differences in area, while explaining in full transparency why I had done so in the graphic's footer.
 
 ## What I Learned
 Above all this project provided me with practical experience with Pandas within Jupyter Notebook. I love this approach over Google Sheets, because it neatly integrates documentation within code, creates a reproducible and automated template, and makes it easy for me to retrace my steps.
@@ -60,7 +56,9 @@ I also learned:
 ## What I'd Like to Learn Next to Advance this Project
 Sandhya challenged me to improve the **orientation of the map**, by layering multiple GeoJSON files- the natural landscape (including the lake), suburban boundaries, and the path of the CTA. She suggested QGIS or MapShaper for this- neither of which I've yet used.
 
-I also hope to layer **demographic data about the community areas**. I know how to do this with community areas but it's a lot of work. Alternatively, I could to learn **point-in-polygon mapping** which would let me map stations to PUMAs- Chicago's 19 statistical areas which are more easily mapped to Census data.
+I also hope to layer **demographic data about the community areas**. I know how to do this with community areas but it's a lot of work. Alternatively, I could learn **point-in-polygon mapping** which would let me map stations to PUMAs- Chicago's 19 statistical areas which are more easily mapped to Census data.
+
+Other than that, I'm still struggling to get image sizing to look good across platforms, especially desktop vs. mobile. I stuck with the default iframes for now.
 
 ## Guide to the Repository
 Most data for this project is collected directly in Python via API. You'll also find in this folder:
