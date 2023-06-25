@@ -14,8 +14,9 @@ My key findings are as follows:
 Interestingly, I have not seen the Pink Line trend reported in Chicago. Prior reporting from 2021 by the Tribune and the Urban Institute highlighted different stations as recovering most (Pulaski and Garfield Conservatory) by that time.
 
 ## Data sources
-| Data | Source | Description|
-| CTA daily ridership by station| https://data.cityofchicago.org | Count of # of riders on CTA each day |
+|Data|Source|Description|
+|---|---|---|
+|CTA daily ridership by station| https://data.cityofchicago.org | Count of # of riders on CTA each day |
 | CTA station info | https://data.cityofchicago.org |Additional station info including GPS coordinates and community area IDs of each station |
 | CTA station info 2 | Additional station info 
 | Community Area Names | https://data.cityofchicago.org | Corresponding names for each station |
