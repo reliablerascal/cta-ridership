@@ -1,6 +1,6 @@
 # Who's Still Riding the CTA?#
 An analysis of changes in CTA ridership between 2019 and 2022
-
+<h1> who's still riding</h1>
 This project looks at which CTA train stations and recovered the most (and the least) of their pre-pandemic ridership levels by 2022. It also attempts to set the stage for future demographic analysis by aggregating ridership stats across Chicago's 77 community areas. And here's the story [Who's Still Riding the CTA](https://reliablerascal.github.io/cta_ridership/) as published on GitHub.
 
 ## Key Findings
@@ -31,24 +31,24 @@ manual effort
 grabbed CTA train colors from https://en.wikipedia.org/wiki/Chicago_%22L%22 
 
 
-##Data Quirks and Other E-Varmints Standing in My Righteous Path
+## Data Quirks and Other E-Varmints Standing in My Righteous Path
 lots of data cleaning, etc.
 mismatched community area numbers
 drop 4x red line stations
 perception of circles. I honestly noted this.
 
 
-##What I Learned
+## What I Learned
 Above all this project provided me with practical experience with Pandas. I love this approach over Google Sheets, because it is so well documented, reproducible, and easy to retrace my oft-forgotten steps.
 
 Importantly, I also became comfortable with API access (Socrata's API platform in particular), GitHub, and scaling back my emotionally-unregulated ambitions.
 
-##What I'd Like to Learn Next to Advance this Project
+## What I'd Like to Learn Next to Advance this Project
 Sandhya challenged me to improve the orientation of the map, by layering multiple GeoJSON files- the natural landscape (including the lake), suburban boundaries, and the path of the CTA. She suggested QGIS or MapShaper for this- neither of which I've yet used.
 
 I also hoped to layer demographic data about the community areas, which I sort of know how to do by using Census Reporter's custom geography tool to calculate census stats by community area. Alternatively, I'd like to learn point-in-polygon mapping so that I could map stations to PUMAs- Chicago's 19 statistical areas which are more easily mapped to Census data.
 
-##Guide to the Repository
+## Guide to the Repository
 Most data for this project is collected directly in Python via API. You'll also find in this folder:
 results includes exported data analysis
 
