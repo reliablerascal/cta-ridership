@@ -58,7 +58,9 @@ Sandhya challenged me to improve the **orientation of the map**, by layering mul
 
 I also hope to layer **demographic data about the community areas**. I know how to do this with community areas but it's a lot of work. Alternatively, I could learn **point-in-polygon mapping** which would let me map stations to PUMAs- Chicago's 19 statistical areas which are more easily mapped to Census data.
 
-Other than that, I'm still struggling to get image sizing to look good across platforms, especially desktop vs. mobile. I stuck with the default iframes for now.
+Some smaller details I ran out of time in addressing:
+* Sizing images to look good across platforms, especially desktop vs. mobile. The default iframes work reasonably well compared to anything else I've tried
+* Formatting numbers within Pandas for use with Flourish. I'd like to round percentages to not show decimals, and add commas in numbers. Easy to do in Google Sheets, but I avoided this workaround.
 
 ## Guide to the Repository
 Most data for this project is collected directly in Python via API. You'll also find in this folder:
