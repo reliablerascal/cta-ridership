@@ -11,16 +11,16 @@ Here's my story, [Who's Still Riding the CTA](https://reliablerascal.github.io/c
 My key findings are as follows:
 * Citywide, 2022 train ridership was at 49% of pre-pandemic (2019) levels
 * Stations ranged from 33% to 71% ridership retention
-* The stations with the best recovery (ranging from 66% to 71%) were all Pink Linestops serving South Lawndale and the Lower West Side
-* The station with the weakest recovery is the suburban Oak Park Blue Line station, at 33% retention
-* The next four weakest stations were all in the Loop, Chicago's downtown area
+* The stations with the **best recovery** (ranging from 66% to 71%) were all **Pink Line** stops serving South Lawndale and the Lower West Side
+* The station with the **weakest recovery** is the suburban **Oak Park Blue Line** station, at 33% retention
+* The **next four weakest stations** were all in the **Loop**, Chicago's downtown area
 
 Interestingly, I have not seen the Pink Line trend reported in Chicago. [Prior reporting by the Tribune and the Urban Institute](https://archive.is/a3wM8#selection-1181.0-1181.124) highlighted the Pulaski and Garfield Conservatory Green Line stops as recovering the best by December 2021  by that time.
 
 ## Data sources
 |Data Source|Description|
 |---|---|
-|[CTA - Ridership - 'L' Station Entries - Daily Totals](CTA - Ridership - 'L' Station Entries - Daily Totals)|Daily count of # of ridership on CTA by station of entry|
+|[CTA - Ridership - 'L' Station Entries - Daily Totals](https://data.cityofchicago.org/Transportation/CTA-Ridership-L-Station-Entries-Daily-Totals/5neh-572f)|Daily count of # of ridership on CTA by station of entry|
 |[CTA - System Information - List of 'L' Stops](https://data.cityofchicago.org/Transportation/CTA-System-Information-List-of-L-Stops/8pix-ypme) |Additional station info including GPS coordinates and community area IDs|
 |[CTA station additional info](source_data/lkup_stations_info.csv)|Manually-entered info on city and train line color|
 |[Chicago Community Area Names](https://services7.arcgis.com/8kZv9DESIQ1hYuyJ/arcgis/rest/services/Chicago_Community_areas/FeatureServer/0/query?where=1%3D1&outFields=OBJECTID,community&returnGeometry=false&outSR=4326&f=json)| ArcGIS Community Area IDs and Names|
