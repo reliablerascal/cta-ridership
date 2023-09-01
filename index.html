@@ -22,10 +22,13 @@
 
 
 
-      <div id="loopingVideoHeader" class="header-video"> <video controlslist="nodownload" autoplay="" playsinline="" loop="" preload="" muted="true" style="background-color: black;" poster="./images/still-header.jpg"> <source id="looping-video" src="./images/amtrak_zephyr.mp4" type="video/mp4"> </video> </div>
+      <div id="loopingVideoHeader" class="header-video"> <video controlslist="nodownload" autoplay="" playsinline="" loop="" preload="" muted="true" style="background-color: black;" poster="./images/header-cta-930-620.jpg"> <source id="looping-video" src="./images/amtrak_zephyr.mp4" type="video/mp4"> </video> </div>
 
 
-    <h1>Who's Still Riding the CTA?</h1>
+      <p>by Rob Reid<br>
+        25 June 2023<br>
+        Design updated 1 September 2023<br>
+        <p><em>See <a href="https://github.com/reliablerascal/cta_ridership">GitHub repository</a> for methodology</em>
   
 
 <p>Ridership on Chicago's CTA trains dropped sharply following the arrival of the COVID-19 pandemic and a subsequent <a href="https://www.illinois.gov/news/press-release.21288.html#:~:text=The%20order%20takes%20effect%205,of%20more%20than%2010%20people">stay-at-home order issued by the State of Illinois in March 2020</a>. As reported by the CTA, Chicago retained less than a third of its previous year ridership in 2020, a trend <a href="https://www.transitchicago.com/assets/1/6/Ridership_Report_-_2020_Annual_Report.pdf">comparable to other cities including New York, Boston and Philadelphia.</a>
@@ -81,10 +84,23 @@ headline.style.top = '400px';
 // headline.style.height = '300px';
 headline.style.padding = '10px';
 headline.style.fontSize = '75px';
+headline.style.fontWeight = 'bold';
 headline.style.color='white';
 // headline.style.background = '#00ff00';
 headline.innerHTML = 'Who\'s Still Riding the CTA?';
 document.body.appendChild(headline);
+
+var subtitle = document.createElement('div');
+subtitle.id = 'bookingLayer';
+subtitle.style.position = 'absolute';
+subtitle.style.left = '100px';
+subtitle.style.top = '500px';
+subtitle.style.padding = '10px';
+subtitle.style.fontSize = '45px';
+subtitle.style.color='white';
+// headline.style.background = '#00ff00';
+subtitle.innerHTML = 'Some train stations bounced back from COVID more than others';
+document.body.appendChild(subtitle);
   </script>
 
 
