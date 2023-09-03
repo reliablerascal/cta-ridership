@@ -20,15 +20,16 @@
     <td width = 50></td>
     <td style="max-width:800px">
 
-
-
       <div id="loopingVideoHeader" class="header-video"> <video controlslist="nodownload" autoplay="" playsinline="" loop="" preload="" muted="true" style="background-color: black;" poster="./images/header-cta-930-620.jpg"> <source id="looping-video" src="./images/amtrak_zephyr.mp4" type="video/mp4"> </video> </div>
 
+
+<!--this is where headline will go for small screen rendering, updated by JavaScript-->
+<div id="mobileHeadline"></div>
 
       <p>by Rob Reid<br>
         25 June 2023<br>
         Design updated 1 September 2023<br>
-        <p><em>See <a href="https://github.com/reliablerascal/cta_ridership">GitHub repository</a> for methodology</em>
+        <em>See <a href="https://github.com/reliablerascal/cta_ridership">GitHub repository</a> for methodology</em>
   
 
 <p>Ridership on Chicago's CTA trains dropped sharply following the arrival of the COVID-19 pandemic and a subsequent <a href="https://www.illinois.gov/news/press-release.21288.html#:~:text=The%20order%20takes%20effect%205,of%20more%20than%2010%20people">stay-at-home order issued by the State of Illinois in March 2020</a>. As reported by the CTA, Chicago retained less than a third of its previous year ridership in 2020, a trend <a href="https://www.transitchicago.com/assets/1/6/Ridership_Report_-_2020_Annual_Report.pdf">comparable to other cities including New York, Boston and Philadelphia.</a>
@@ -74,34 +75,35 @@ Minor updates to style made on 6/30/23 and beyond
 
 
 <script>
-// add headline above video
-var headline = document.createElement('div');
-headline.id = 'bookingLayer';
+var headline = document.createElement('h1');
+var subtitle = document.createElement('h3');
+headline.style.color='white';
+headline.innerHTML = 'Who\'s Still Riding the CTA?';
+subtitle.style.color='white';
+subtitle.innerHTML = 'Some train stations bounced back from COVID more than others';
+
+
+if (window.innerWidth > 768) {
+//for large screens, position the headline on top of the video
 headline.style.position = 'absolute';
+headline.style.padding = '10px';
 headline.style.left = '100px';
 headline.style.top = '400px';
-// headline.style.width = '300px';
-// headline.style.height = '300px';
-headline.style.padding = '10px';
-headline.style.fontSize = '75px';
-headline.style.fontWeight = 'bold';
-headline.style.color='white';
-// headline.style.background = '#00ff00';
-headline.innerHTML = 'Who\'s Still Riding the CTA?';
-document.body.appendChild(headline);
+document.body.appendChild(subtitle);
 
-var subtitle = document.createElement('div');
-subtitle.id = 'bookingLayer';
 subtitle.style.position = 'absolute';
+subtitle.style.padding = '10px';
 subtitle.style.left = '100px';
 subtitle.style.top = '500px';
-subtitle.style.padding = '10px';
-subtitle.style.fontSize = '45px';
-subtitle.style.color='white';
-// headline.style.background = '#00ff00';
-subtitle.innerHTML = 'Some train stations bounced back from COVID more than others';
-document.body.appendChild(subtitle);
-  </script>
+document.body.appendChild(headline);
+
+} else {
+//for smaller screens, position the headline under the video
+var divHeadline = document.getElementById("mobileHeadline");
+divHeadline.appendChild(headline);
+divHeadline.appendChild(subtitle);
+}
+</script>
 
 
 <!-- END HACK MARGINS right margin and close--->
