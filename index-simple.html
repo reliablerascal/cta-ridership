@@ -81,7 +81,11 @@ Minor updates to style made on 6/30/23 and beyond
 </div>
 </section>
 
-<script>
+<!---
+  for large screens, position the headline on top of the video
+for smaller screens, position the headline under the video
+--->
+<!-- <script>
 var headline = document.createElement('h1');
 var subtitle = document.createElement('h3');
 headline.style.color='white';
@@ -90,7 +94,6 @@ subtitle.style.color='white';
 subtitle.innerHTML = 'Some train stations bounced back from COVID more than others';
 
 if (window.innerWidth > 768) {
-//for large screens, position the headline on top of the video
 headline.style.position = 'absolute';
 headline.style.padding = '10px';
 headline.style.left = '200px';
@@ -104,12 +107,12 @@ subtitle.style.top = '400px';
 document.body.appendChild(headline);
 
 } else {
-//for smaller screens, position the headline under the video
+
 var divHeadline = document.getElementById("mobileHeadline");
 divHeadline.appendChild(headline);
 divHeadline.appendChild(subtitle);
 }
-</script>
+</script> -->
 
 
 
