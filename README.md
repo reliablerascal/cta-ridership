@@ -1,11 +1,11 @@
 # Who's Still Riding the CTA?
 _An analysis of changes in CTA ridership between 2019 and 2022_
 
-This project looks at which Chicago Transit Authority (CTA) train stations recovered the most, and which recovered the least, of their pre-pandemic ridership levels. Because the pandemic began impacting transit in March 2020, I chose to compare full-year ridership totals between 2019 and 2022.
+This project looks at which Chicago Transit Authority (CTA) train stations recovered the most, and which recovered the least, of their pre-pandemic ridership levels. Because ridership fluctuates seasonally <em>within</em> each year, I focused my analysis on change in ridership between the last full year before the pandemic (2019) and the first full year after the peak of the pandemic (2022).
 
-I'm also attempting to set the stage for future demographic analysis by aggregating ridership stats for the 143 stations up to 77 community areas.
+I also set the stage for future demographic analysis by aggregating ridership stats for the 143 stations up to 77 community areas.
 
-Here's my story, [Who's Still Riding the CTA](https://reliablerascal.github.io/cta_ridership/), as published on GitHub.
+Here's my story, [Who's Still Riding the CTA](https://reliablerascal.github.io/cta-ridership/), as self-published in my portfolio.
 
 ## Key Findings
 My key findings are as follows:
