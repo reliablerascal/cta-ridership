@@ -3,7 +3,7 @@ _An analysis of changes in CTA ridership between 2019 and 2022_
 
 This project looks at which Chicago Transit Authority (CTA) train stations recovered the most, and which recovered the least, of their pre-pandemic ridership levels. Because ridership fluctuates seasonally <em>within</em> each year, I focused my analysis on change in ridership between the last full year before the pandemic (2019) and the first full year after the peak of the pandemic (2022).
 
-I also set the stage for future demographic analysis by aggregating ridership stats for the 143 stations up to 77 community areas.
+I also set the stage for future demographic analysis by aggregating ridership stats for the 143 stations up to Chicago's 77 community areas.
 
 Here's my story, [Who's Still Riding the CTA](https://reliablerascal.github.io/cta-ridership/), as self-published in my portfolio.
 
@@ -11,7 +11,7 @@ Here's my story, [Who's Still Riding the CTA](https://reliablerascal.github.io/c
 My key findings are as follows:
 * Citywide, 2022 train ridership was at 49% of pre-pandemic (2019) levels
 * Stations ranged from 33% to 71% ridership retention
-* The stations with the **best recovery** (ranging from 66% to 71%) were all **Pink Line** stops serving South Lawndale and the Lower West Side
+* The five stations with the **best recovery** (ranging from 66% to 71%) were all **Pink Line** stops serving South Lawndale and the Lower West Side
 * The station with the **weakest recovery** is the suburban **Oak Park Blue Line** station, at 33% retention
 * The **next four weakest stations** were all in the **Loop**, Chicago's downtown area
 
@@ -29,7 +29,7 @@ Interestingly, I have not seen the Pink Line trend reported in Chicago. [Prior r
 
 ## Overview of Data Analysis Process
 My data analysis process required the following steps:
-* Acquired ridership and station data via API, aggregated through Socrata's query engine. Socrata is an API platform used by the City of Chicago and many other cities. Its [query language](https://dev.socrata.com/docs/queries/) helped me group and sum results more efficiently than possible with Pandas.
+* Acquired ridership and station data via API, aggregated through Socrata's query engine. Socrata is an API platform used by the City of Chicago and many other cities. Its [query language](https://dev.socrata.com/docs/queries/) helped me group and sum results while extracting data, minimizing the amount of data transfered.
 * Cleaned up data by removing a previously closed station, re-organizing data structures to get Lat and Lng coordinates as separate columns, dropping duplicate rows representing different entries to the same station
 * Merged supplemental info about stations (lat/lng, station line color, city) into station data
 * Created an aggregate community-level summary, merging in community names
@@ -43,24 +43,21 @@ My data analysis process required the following steps:
 In addition to some problems mentioned above, I addressed the following problems:
 * Removed 4 red line stations from station-level (but not community level) summaries, because two stations closed for renovation in May 2021 while adjacent stations picked up their ridership
 * Annoyingly, community area IDs in CTA data did not exactly match IDs in the community area boundary file. I had to match by community area name
-* Using a point map, I found it difficult to visually discern the difference between 35% ridership retention and 70% retention. While Youyou argued for mathematical precision, Gurman taught us that humans don't accurately perceive area. I found a helpful explainer on the [ethics of "perceptual scaling"](https://makingmaps.net/2007/08/28/perceptual-scaling-of-map-symbols/) and opted to exaggerate the differences in area, while explaining in full transparency why I had done so in the graphic's footer.
+* Using a point map, I found it difficult to visually discern the difference between 35% ridership retention and 70% retention. It's worth weighing whether mathematical precision or <em>perception</em> is more important in portraying differences. Though I ultimately opted against "perceptual scaling," here's an interesting explainer on the [ethics of perceptual scaling](https://makingmaps.net/2007/08/28/perceptual-scaling-of-map-symbols/).
 
 ## What I Learned
-Above all this project provided me with practical experience with Pandas within Jupyter Notebook. I love this approach over Google Sheets, because it neatly integrates documentation within code, creates a reproducible and automated template, and makes it easy for me to retrace my steps.
+Though I improved this repo in October 2023, I started this project in June as a Columbia University portfolio project. I credit this work shifting my habits away from Google Sheets and towards Python/Pandas within Jupyter Notebook. I'm convinced the latter approach is much more effective in integrating documentation within code, creating a reproducible and automated template, and making it easy for me to retrace my steps.
 
-I also learned:
+In June, I also learned:
 * Socrata's API platform, commonly used in city data portals
 * GitHub, a means of organizing and sharing my code
-* Scaling back my emotionally-unregulated ambitions. I really wanted to delve into demographic patterns, but that will have to wait for a Part II.
+* Scoping a project for timely completion. I really wanted to delve into demographic patterns corresponding to ridership, but that will have to wait for a Part II.
 
-## What I'd Like to Learn Next to Advance this Project
-Sandhya challenged me to improve the **orientation of the map**, by layering multiple GeoJSON files- the natural landscape (including the lake), suburban boundaries, and the path of the CTA. She suggested QGIS or MapShaper for this- neither of which I've yet used.
+## Next Steps to Advance this Project
+* Layer **demographic data about the community areas**.
+* Size images to look good across platforms, especially desktop vs. mobile. The default iframes in Flourish work reasonably well compared to anything else I've tried, but it's worth more development.
+* Sandhya (LA Times) challenged me to provide geographical orientation- the lake, streets, etc. I could do this in DataWrapper using a basemap, but the tradeoff is that I'd be limited in the # of data points (stations) I could portray. Worth exploring more, perhaps for a neighborhood-specific zoom-in.
 
-I also hope to layer **demographic data about the community areas**. I know how to do this with community areas but it's a lot of work. Alternatively, I could learn **point-in-polygon mapping** which would let me map stations to PUMAs- Chicago's 19 statistical areas which are more easily mapped to Census data.
-
-Some smaller details I ran out of time in addressing:
-* Sizing images to look good across platforms, especially desktop vs. mobile. The default iframes work reasonably well compared to anything else I've tried
-* Formatting numbers within Pandas for use with Flourish. I'd like to round percentages to not show decimals, and add commas in numbers. Easy to do in Google Sheets, but I avoided this workaround.
 
 ## Guide to the Repository
 Most data for this project is collected directly in Python via API. You'll also find in this folder:
